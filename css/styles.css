@@ -2,15 +2,15 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 16px;
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
     line-height: 1.5;
 }
 .logo {
     font-weight: 700;
         font-size: 18px;
-        font-family: "Raleway";
+        font-family:"Raleway",sans-serif;
         /* line-height: 21px; */
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
@@ -71,16 +71,16 @@ a {
         letter-spacing: 0.02em;
         color: #404BBF;
 }
-.addres {
+.addres .addres-1 {
     font-weight: 400;
         font-size: 16px;
-    
+    font-style: normal;
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.addres:hover {
+.addres .addres-1:hover {
     font-weight: 400;
         font-size: 16px;
     
@@ -113,8 +113,8 @@ a {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #4D5AE5;
 }
-.main-page .button {
-    font-weight: 500;
+.main-page .button:hover {
+        font-weight: 500;
         font-size: 16px;
     
         /* line-height: 24px; */
@@ -232,4 +232,7 @@ footer .text {font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.addres {
+    font-style: normal;
 }
